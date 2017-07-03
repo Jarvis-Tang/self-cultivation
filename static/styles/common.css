@@ -1,0 +1,127 @@
+body {
+	font-family: Tahoma, 'Microsoft Yahei', 'Simsun';
+	color: #5a5a5a;
+}
+
+header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #2a3440;
+	text-align: center;
+	overflow: hidden;
+}
+
+header h1 {
+	margin-top: 200px;
+	color: #fff;
+	font-size: 50px;
+}
+
+header h3 {
+	font-size: 24px;
+	color: rgba(255, 255, 255, .5);
+	margin-bottom: 150px;
+}
+
+.heading {
+	padding: 50px 0;
+	background-color: #dfe1e8;
+	text-align: center;
+}
+
+.heading h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 40px;
+}
+
+.guide_info {
+	padding: 50px 0;
+}
+
+.guide_info h3 {
+	color: #16A085;
+	font-size: 24px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.guide_info p {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.guide_info li {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.guide_nav {
+	padding: 50px 0;
+}
+
+.guide_nav h4 a {
+	font-size: 28px;
+}
+
+.guide_nav li {
+	margin-top: 10px;
+}
+
+.guide_nav li a {
+	font-size: 18px;
+}
+
+.section {
+	border-bottom: 1px solid #dfe1e8;
+	font-size: 20px;
+	overflow: hidden;
+	padding: 40px;
+}
+
+.section h3 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.section .col-all {
+	margin-left: 15px
+}
+
+.section li {
+	margin-bottom: 10px;
+}
+
+.section pre {
+	font-size: 18px;
+}
+
+footer {
+	border-top: 1px solid #dfe1e8;
+	padding: 40px 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+#toTop {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	right: 5px;
+	bottom: 5px;
+	width: 128px;
+	height: 128px;
+	background-image: url("../images/up.png");
+	background-repeat: no-repeat;
+	opacity: .4;
+	filter: alpha(opacity=40);
+	/* For IE8 and earlier */
+}
+
+#toTop:hover {
+	opacity: .8;
+	filter: alpha(opacity=80);
+	/* For IE8 and earlier */
+}
