@@ -30,7 +30,8 @@
             $this.click(function(e) {
                 e.preventDefault();
                 $("body, html").animate({
-                    scrollTop : 600
+                    //返回顶部后的上边距像素值，0 代表直接到顶
+                    scrollTop : 0
                 }, config.speed);
             });
 
