@@ -1,8 +1,3 @@
-/*!
-    jQuery scrollTopTop v1.0 - 2013-03-15
-    (c) 2013 Yang Zhao - geniuscarrier.com
-    license: http://www.opensource.org/licenses/mit-license.php
-*/
 (function($) {
     $.fn.scrollToTop = function(options) {
         var config = {
